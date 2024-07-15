@@ -3,9 +3,9 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 16, 2024 at 04:16 AM
+-- Generation Time: Jul 15, 2024 at 04:13 PM
 -- Server version: 10.4.32-MariaDB
--- PHP Version: 8.0.30
+-- PHP Version: 8.2.12
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -52,6 +52,52 @@ INSERT INTO `accounts` (`id`, `fname`, `lname`, `gender`, `phonenum`, `email`, `
 -- --------------------------------------------------------
 
 --
+-- Table structure for table `friendships`
+--
+
+CREATE TABLE `friendships` (
+  `user_id` int(11) NOT NULL,
+  `friend_id` int(11) NOT NULL,
+  `status` varchar(25) NOT NULL,
+  `id` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `friendships`
+--
+
+INSERT INTO `friendships` (`user_id`, `friend_id`, `status`, `id`) VALUES
+(1, 4, 'accepted', 1);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `messages`
+--
+
+CREATE TABLE `messages` (
+  `id` int(11) NOT NULL,
+  `username` varchar(255) NOT NULL,
+  `reciver` varchar(255) NOT NULL,
+  `message` text NOT NULL,
+  `secret_key` varchar(255) NOT NULL,
+  `timestamp` timestamp NOT NULL DEFAULT current_timestamp()
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+--
+-- Dumping data for table `messages`
+--
+
+INSERT INTO `messages` (`id`, `username`, `reciver`, `message`, `secret_key`, `timestamp`) VALUES
+(1, 'omar.khaled@ws', 'mohamed.ahmed@ws', '2njS0AC6C0URYEJvGcPaqw==', 'adba6c8bafa4f59b989e94ffef7af4a4', '2024-07-15 12:29:02'),
+(2, 'mohamed.ahmed@ws', 'omar.khaled@ws', 'iWvZiBBe4WOX1ylL2tRTQw==', 'e65f321830255cfd85695f3e5bf5c27d', '2024-07-15 12:30:16'),
+(3, 'mohamed.ahmed@ws', 'omar.khaled@ws', 'kaC7yqXmNqTuMA23y+4uog==', '3c99a47b4b23f83aa374cb1b343ddbd5', '2024-07-15 12:32:16'),
+(4, 'omar.khaled@ws', 'mohamed.ahmed@ws', 'E08RuRhICKRPy1gkJHonLA==', '784956a88d30ebe5b2d1f236fbc31767', '2024-07-15 12:32:20'),
+(5, 'omar.khaled@ws', 'mohamed.ahmed@ws', 'ZNAcLDFuHD0jKxyb0gCwnw==', '04b507e0e16cec129b2b0159a4d4ab00', '2024-07-15 12:32:22');
+
+-- --------------------------------------------------------
+
+--
 -- Table structure for table `requests`
 --
 
@@ -74,6 +120,18 @@ ALTER TABLE `accounts`
   ADD UNIQUE KEY `id` (`id`);
 
 --
+-- Indexes for table `friendships`
+--
+ALTER TABLE `friendships`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `messages`
+--
+ALTER TABLE `messages`
+  ADD PRIMARY KEY (`id`);
+
+--
 -- Indexes for table `requests`
 --
 ALTER TABLE `requests`
@@ -88,6 +146,18 @@ ALTER TABLE `requests`
 --
 ALTER TABLE `accounts`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=7;
+
+--
+-- AUTO_INCREMENT for table `friendships`
+--
+ALTER TABLE `friendships`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=2;
+
+--
+-- AUTO_INCREMENT for table `messages`
+--
+ALTER TABLE `messages`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `requests`
