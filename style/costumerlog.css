@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+header img{
+    margin-left: 45%;
+}
+
+body{
+    background-color: rgb(148, 191, 226, 80%);
+}
+.box {
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 37%;
+    padding: 45px;
+    width: 375px;
+    box-shadow: 5px 5px 10px 5px rgb(0, 0, 0, 20%);
+}
+.container{
+    margin-top: -90px;
+}
+.box h1 {
+    font-size: 35px;
+    font-weight: 800;
+    color: #94bfe2;
+    text-align: center;
+    margin-bottom: 45px;
+}
+
+.box form label {
+    display: block;
+    font-size: 12px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+
+}
+
+.box form div {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.box form div:hover i {
+    color: #335;
+}
+
+.box form div input {
+    font-size: 12px;
+    outline: none;
+    border: none;
+    padding: 10px;
+    min-width: 0;
+    flex: 1;
+}
+
+.box form div input::placeholder {
+    opacity: 1;
+    color: gray;
+    font-size: 12px;
+}
+
+.box a {
+    color: gray;
+    text-decoration: none;
+    font-size: 12px;
+    display: block;
+}
+
+
+.box a:hover {
+    color: #335;
+}
+
+.box form input[type="submit"] {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background-color: #94bfe2;
+    color: white;
+    border: none;
+    width: 100%;
+    padding: 15px;
+    margin-top: 45px;
+    border-radius: 250px;
+}
+
+.box form input[type="submit"]:hover {
+    background-color: #335;
+    cursor: pointer;
+}
+
+.box i{
+    color: #94bfe2;
+}
+.box .signUp {
+    margin-top: 25px;
+    text-align: center;
+    text-transform: uppercase;
+}.gend{
+    padding-right: 50px;
+    
+}
+.gend input
+{
+    margin: 5px;
+}
+.gend .typ{margin: 25px;}

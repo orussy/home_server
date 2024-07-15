@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #303030;
+}
+header img {
+  padding-top: 40px;
+  margin-left: 40%;
+  width: 130px;
+}
+header h3 {
+  color: white;
+  margin-top: 40px;
+  margin-right: 45%;
+}
+header {
+  background-color: #212121;
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.face {
+  width: 95px;
+  height: 95px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+}
+.box h1 {
+  font-size: 35px;
+  font-weight: 800;
+  color: white;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.fc {
+  padding-left: 32%;
+}
+svg {
+  z-index: 1000;
+  padding-top: 30px;
+}
+.box {
+  background-color: #424242;
+  border-radius: 10px;
+  margin-left: 37%;
+  margin-top: -150px;
+  padding: 45px;
+  width: 375px;
+  box-shadow: 5px 5px 10px 5px rgb(0, 0, 0, 20%);
+}
+
+.box form label {
+  color: white;
+  display: block;
+  font-size: 12px;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+.box form div {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.box form div:hover i {
+  color: #212121;
+}
+
+.box form div input {
+  font-size: 12px;
+  outline: none;
+  border: none;
+  padding: 10px;
+  min-width: 0;
+  flex: 1;
+}
+
+.box form div input::placeholder {
+  opacity: 1;
+  color: white;
+  opacity: 80%;
+  font-size: 12px;
+}
+
+.box a {
+  color: white;
+  text-decoration: none;
+  font-size: 12px;
+  display: block;
+}
+
+.box a:hover {
+  color: #212121;
+}
+
+.box input {
+  background-color: #424242;
+  color: white;
+  opacity: 100%;
+}
+
+.box form input[type="submit"] {
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  background-color: #d1c7c7;
+  color: black;
+  border: none;
+  width: 100%;
+  padding: 15px;
+  margin-top: 45px;
+  border-radius: 250px;
+}
+
+.box form input[type="submit"]:hover {
+  background-color: #212121;
+  color: white;
+  cursor: pointer;
+}
+
+.box i {
+  padding-right: 7px;
+  color: white;
+}
+.wron {
+  margin-top: 10px;
+  border-radius: 10px;
+  background-color: red;
+  opacity: 0.7;
+  text-align: center;
+  color: white;
+}
+.signup {
+  margin-top: 12px;
+  margin-left: 40%;
+}
+.face {
+  width: 95px;
+  height: 95px;
+  background-color: white;
+  border-radius: 50%;
+  position: relative;
+}
+.eye {
+  position: absolute;
+  width: 13px;
+  height: 13px;
+  background-color: black;
+  border-radius: 50%;
+  left: 25%;
+  top: 30%;
+}
+.eye:nth-child(2) {
+  left: unset;
+  right: 25%;
+}
+.eye-blink-upper,
+.eye-blink-lower {
+  position: absolute;
+  width: 100%;
+  background-color: aliceblue;
+  content: "";
+  inset: 0;
+  transform: translateY(-100%);
+  background-color: white;
+  transition: transform 0.3s ease;
+}
+.eye-blink-lower {
+  transform: translateY(100%);
+}
+.mouth {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 40%;
+  height: 12px;
+  bottom: 25%;
+  background-color: black;
+  border-radius: 0 0 50% 50%;
+}
+
+svg {
+  filter: drop-shadow(-10px 5px 50px);
+}

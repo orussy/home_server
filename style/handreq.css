@@ -1,0 +1,254 @@
+.byt {
+  padding-left: 70px;
+  color: white;
+}
+header {
+  margin-top: -75px;
+}
+header h5 {
+  color: white;
+  margin-right: 30px;
+  font-size: 15px;
+}
+.nav a {
+  margin-left: -20px;
+  margin-top: 2px;
+}
+.login a {
+  margin-left: 150px;
+  margin-top: 2px;
+}
+.nav i {
+  color: white;
+  font-size: 20px;
+  transition: 0.3s;
+}
+.nav i:hover {
+  color: black;
+}
+.nav {
+  height: 30px;
+  margin-right: 40px;
+  display: inline-flex;
+}
+.up,
+.up1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+header {
+  background-color: #212121;
+  margin-left: 300px;
+  width: 80%;
+  height: 75px;
+  position: fixed;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  filter: drop-shadow(25px 5px 15px);
+}
+.up a {
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin-left: 20%;
+  transition: 0.4s ease;
+}
+.up i,
+.up1 i {
+  font-size: 20px;
+  padding-left: 9px;
+  transition: 0.01s ease;
+}
+.up a:hover,
+.up i:hover {
+  color: black;
+}
+
+.sidebar {
+  margin-top: -75px;
+}
+.sidebar hr {
+  opacity: 20%;
+}
+.up1 a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20%;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.main {
+  margin-top: 75px;
+  margin-left: 300px;
+  padding-bottom: 315.5px;
+}
+.content {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pro {
+  width: 19em;
+  box-shadow: 0 2px 20px rgba(1 1 1/200);
+  border-radius: 10px;
+  margin: 40px;
+  transition: 0.7s ease;
+  background-color: #212121;
+}
+.pro {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 30px;
+  width: 19em;
+  height: 14em;
+  border-radius: 10px;
+}
+.info {
+  padding-top: 40px;
+  text-align: center;
+}
+.pro .info h4 {
+  color: white;
+  font-size: 1em;
+  font-weight: 700;
+  display: flex;
+  padding-bottom: 10px;
+  justify-content: center;
+}
+.pro .info a {
+  color: white;
+  padding-top: 50px;
+  text-decoration: none;
+  padding: right 55%;
+  padding-bottom: 10px;
+  transition: 0.2s ease;
+  padding-right: 30px;
+}
+.info a:hover {
+  color: black;
+}
+.pro:hover {
+  transform: scale(1.1);
+}
+.pro .info button {
+  background-color: #212121;
+  border: none;
+  color: white;
+  transition: 0.2s ease;
+}
+.pro .info button:hover {
+  cursor: pointer;
+  color: black;
+}
+.storage {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+.storage h5 {
+  margin-left: 30px;
+  color: white;
+}
+.share a {
+  color: white;
+  text-decoration: none;
+  padding: 26px 28px 25px 20px;
+  transition: 0.7s ease;
+}
+.share .act {
+  color: white;
+  text-decoration: none;
+  padding: 26px 28px 25px 20px;
+  transition: 0.7s ease;
+  background-color: #171717;
+}
+.share {
+  display: flex;
+}
+.share a:hover {
+  background-color: #171717;
+}
+
+.cont {
+  padding-top: 20%;
+  padding-left: 20%;
+}
+.cont form select {
+  background-color: #313131;
+  border: none;
+  border-bottom: 1px solid gray;
+  color: white;
+  padding: 10px;
+}
+.cont form select option {
+  color: black;
+  background-color: white;
+}
+.cont form input[type="file"] {
+  color: white;
+}
+.cont form input[type="file"]::file-selector-button {
+  margin-left: 60px;
+  margin-right: 20px;
+  padding: 20px;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  background-color: #171717;
+  transition: 0.5s ease;
+}
+.cont form input[type="file"]::file-selector-button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.cont form button {
+  margin-left: 50px;
+  padding: 20px;
+  color: white;
+  background-color: #171717;
+  border: none;
+  border-radius: 20px;
+  transition: 0.5s ease;
+}
+.cont form button:hover {
+  cursor: pointer;
+  background-color: black;
+}
+.acca {
+  display: flex;
+  margin: 30px;
+  padding-top: 105px;
+  padding-left: 40px;
+}
+.acca span {
+  padding-top: 25px;
+  padding-left: 30px;
+  font-size: 20px;
+  color: white;
+}
+.acca button {
+  border: none;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  margin-left: 15px;
+  background-color: #171717;
+  color: white;
+  transition: 0.3s ease;
+}
+.acca button:hover {
+  background-color: black;
+}
+.fa-solid {
+  font-size: 60px;
+  color: white;
+  margin-right: 10px;
+}
+.main hr {
+  margin-top: 60px;
+  margin-left: 40px;
+  margin-right: 40px;
+  opacity: 70%;
+}

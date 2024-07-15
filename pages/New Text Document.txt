@@ -1,0 +1,30 @@
+delete file
+<?php
+$file_path = 'path/to/your/file.txt';
+
+if (file_exists($file_path)) {
+    if (unlink($file_path)) {
+        echo "File deleted successfully.";
+    } else {
+        echo "Error deleting file.";
+    }
+} else {
+    echo "File does not exist.";
+}
+?>
+
+<div class="acca">
+          <i class="fa-solid fa-user"></i>
+          <H3>OMAR.khaled@ws</H3>
+          <h3>newfiel.pfg</h3>
+          <form action="requests.php" method="post">
+            <input type="text" name="sendemail" value="">
+          <button  >Accept</button>
+          <button>Reject</button>
+          </form>
+          </div>
+          <hr>
+
+
+
+         

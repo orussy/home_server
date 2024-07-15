@@ -1,0 +1,127 @@
+header {
+  margin-top: -75px;
+  filter: drop-shadow(25px 5px 15px);
+}
+header h5 {
+  color: white;
+  margin-right: 30px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+.nav i {
+  margin-left: -20px;
+  margin-top: 2px;
+  color: white;
+  transition: 0.5s;
+}
+.nav i {
+  font-size: 20px;
+}
+.nav i:hover {
+  color: black;
+}
+.nav {
+  height: 30px;
+  margin-right: 40px;
+  display: inline-flex;
+}
+.up,
+.up1 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.up a {
+  font-size: 20px;
+  text-decoration: none;
+  color: white;
+  margin-left: 20%;
+  transition: 0.4s ease;
+}
+.up1 a {
+  text-decoration: none;
+  color: black;
+  margin-left: 20%;
+  font-size: 20px;
+  transition: 0.4s ease;
+}
+.login a {
+  margin-left: 150px;
+  margin-top: 2px;
+}
+.up i,
+.up1 i {
+  font-size: 20px;
+  padding-left: 9px;
+  transition: 0.01s ease;
+}
+.up a:hover {
+  color: black;
+}
+.sidebar hr {
+  opacity: 20%;
+}
+.sidebar {
+  margin-top: -75px;
+}
+.main {
+  margin-top: 75px;
+  padding-top: 70px;
+  margin-left: 30px;
+  padding-bottom: 60px;
+  padding-left: 22%;
+}
+
+.wron {
+  width: 500px;
+  margin-top: 10px;
+  margin-left: 20%;
+  border-radius: 10px;
+  background-color: red;
+  opacity: 0.7;
+  text-align: center;
+  color: white;
+}
+.done {
+  opacity: 0.7;
+}
+.storage {
+  margin-top: 200px;
+  margin-left: 40px;
+}
+.storage h5 {
+  margin-left: 30px;
+  color: white;
+}
+
+.byt {
+  padding-left: 70px;
+  color: white;
+}
+
+.share a {
+  color: white;
+  text-decoration: none;
+  padding: 26px 28px 25px 20px;
+  transition: 0.7s ease;
+}
+.share .act {
+  color: white;
+  text-decoration: none;
+  padding: 26px 28px 25px 20px;
+  transition: 0.7s ease;
+  background-color: #171717;
+}
+.share a:hover {
+  background-color: #171717;
+}
+.acc {
+  padding-bottom: 480px;
+  margin-right: 20px;
+}
+.sendname {
+  margin-left: 30%;
+  color: white;
+}
+.content {
+  padding-top: 90px;
+}
